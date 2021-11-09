@@ -98,3 +98,5 @@ There are some important numbers to take note of from the above figure; some are
 - Explore the relationship between the "important features" and the sales price to see if they need to be transformed somehow.
 - Apply a 70/20/10 split to the expanded data set in order to perform some likely much-needed validation on the model as it comes out of training.
 - Explore the possibility that a linear model may not be the correct model for this sort of question!
+
+# Thanks for reading! 
