@@ -68,6 +68,10 @@ There are some important numbers to take note of from the above figure; some are
 
 - The normalized root mean squared error is ~0.124, which isn't terribly far from zero; this provides decent evidence that this model is indeed fit pretty well.
 
+- The variable inflation factor value for every utilized feature is under 5, and none of them match! This means that my model is not really suffering from multicollinearity issues.
+
+- The p-value for each utilized feature is statistically significant at alpha = 0.05, meaning that each selected feature's effect on the target price is very likely real and impactful, and not simply random chance.
+
 **The Okay:**
 
 - The R^2 value for the model on out-of-sample data is 0.715, meaning it can explain about 71.5% of the variance seen in the relationship between significant features and the ultimate selling price of a van. This isn't really that great of a predictive accuracy, but in the context of campervans where there are so many features, and where the value of a feature can take on a really big range (for example, a 'stove' in a van could be the $15 single-burner propane stove you bought on Craigslist, or it could be a $700+ induction cooktop with 2 or more burners).
